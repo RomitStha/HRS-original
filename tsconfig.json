@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "sourceMap": false,
+    "outDir": "build",
+    "noUnusedLocals": true
+  },
+  "exclude": ["node_modules", "blueprint-templates"]
+}
