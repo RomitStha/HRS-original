@@ -2,7 +2,7 @@ import * as express from "express";
 
 const app = express();
 
-import { sequelize } from "../config";
+import { sequelize } from "../app/config";
 sequelize.sync({ force: false }).then(() => {
   console.log(" yes re-sync");
 });
